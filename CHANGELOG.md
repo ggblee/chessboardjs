@@ -1,6 +1,13 @@
-# chessboard.js Change Log
+# Changelog
 
-All notable changes to this project will be documented in this file.
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [1.2.0](https://github.com/oakmac/chessboardjs/compare/v1.0.0...v1.2.0) (2021-06-29)
+
+
+### Features
+
+* Add onBoardClick handler ([7d2cdb8](https://github.com/oakmac/chessboardjs/commit/7d2cdb8f261cfaaef96edfd987ce4c03c483392c))
 
 ## [1.0.0] - 2019-06-11
 - Orientation methods now return current orientation. [Issue #64]
