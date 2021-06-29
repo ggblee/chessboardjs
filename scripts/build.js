@@ -25,7 +25,7 @@ const uglifyResult = uglify.minify(jsSrc)
 const minifiedJS = uglifyResult.code
 
 // quick sanity checks
-console.assert(!uglifyResult.error, 'error minifying JS!')
+console.assert(!uglifyResult.error, 'error minifying JS! ' + uglifyResult.error)
 console.assert(typeof minifiedCSS === 'string' && minifiedCSS !== '', 'error minifying CSS!')
 
 // add license to the top of minified files
