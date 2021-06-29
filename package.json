@@ -1,15 +1,17 @@
 {
   "author": "Chris Oakman <chris@oakmac.com> (http://chrisoakman.com/)",
-  "name": "@chrisoakman/chessboardjs",
+  "name": "@ggblee/chessboardjs",
   "description": "JavaScript chessboard widget",
   "homepage": "https://chessboardjs.com",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/oakmac/chessboardjs.git"
   },
-  "files": ["dist/"],
+  "files": [
+    "dist/"
+  ],
   "dependencies": {
     "jquery": ">=3.4.1"
   },
